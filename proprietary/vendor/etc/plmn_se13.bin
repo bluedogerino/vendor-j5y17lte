@@ -47,8 +47,8 @@ $
 21201vala"vala
 
 21210Monaco"MONACO
-"
-21303ANDORRA-MOBILAND"M-AND
+#
+21303AndorraTelecom"AndorraT
 
 21401vodafone ES"voda ES
 
@@ -320,8 +320,6 @@ vodafone P"voda P
 IS OnWaves"OnWaves
 
 27411NOVA IS"NOVA
-
-27412IS TAL"TAL
 
 27601
 Telekom.al"T.al
@@ -375,8 +373,6 @@ Telenor BG"Telenor
 28802VODAFONE FO"VODAFONE
 #
 29001TELE Greenland"TELE GRL
-
-29201SMT"SMT
 
 29340A1 SI"A1 SI
 
@@ -428,8 +424,6 @@ Telekom.me"T.me
 302610Bell"Bell
 !
 302620Ice Wireless Inc"Ice
-
-302660MTS"MTS
 #
 302720Rogers Wireless"ROGERS
 
@@ -508,8 +502,6 @@ US PLATEAU"PLATEAU
 310460USA1L"USA1L
  
 310470DOCOMO PACIFIC"DPAC
-'
-310480iCONNECT ADVANCED"iConnect
 
 310490T-Mobile"T-Mobile
 "
@@ -544,8 +536,6 @@ US PLATEAU"PLATEAU
 311040USA - Commnet"Commnet
 #
 311080Pine Cellular"PINECell
-
-311090USASXLP"SXLP
 
 311190USAC1ECI"C1ECI
 
@@ -1494,6 +1484,8 @@ BRU-DSTCom"DSTCom
 53901U-CALL"U-CALL
 !
 53988Digicel Tonga"Digicel
+
+54001Our Telekom"Telekom
 
 54002bmobile"bmobile
 
@@ -1592,8 +1584,6 @@ TELECEL ML"TELECEL
 
 61101	Orange GN"ORANGEGN
 
-61102GN LAGUI"LAGUI
-
 61104GNMTN"GNAreeba
 
 61105GINCL"Cellcom
@@ -1623,8 +1613,6 @@ TELECEL ML"TELECEL
 61602ETISALAT BENIN"ETISALAT
 
 61603	MTN BENIN"MTNBENIN
-*
-61604BELL BENIN COMMUNICATION"BBCOM
 
 61701CELLPLUS-MRU"my.t
 
@@ -1722,7 +1710,7 @@ Orange RDC"Orange
 
 63202MTN"MTN
 
-63203	Orange BS"Orange B
+63203	Orange GB"OrangeGB
 
 63301C&W SEY"C&W SEY
 
@@ -1743,8 +1731,6 @@ MTN RWANDA"MTN
 
 63701
 SO Telesom"Tele
-
-63704SOMAFONE"SOMAFONE
 
 63730	Som Golis"Golis
 #
@@ -2058,4 +2044,4 @@ AeroMobile"AeroMob
 
 90146	Telecom26"T26
 
-90150EchoStar Mobile"EML'Published TS25 Database 15 October 2018
+90150EchoStar Mobile"EML(Published TS25 Database 12 November 2018

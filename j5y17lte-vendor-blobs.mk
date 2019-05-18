@@ -48,9 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5y17lte/proprietary/lib/libsomp.so:system/lib/libsomp.so \
     vendor/samsung/j5y17lte/proprietary/vendor/lib/libstainkiller.so:system/vendor/lib/libstainkiller.so \
     vendor/samsung/j5y17lte/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
-    vendor/samsung/j5y17lte/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
-    vendor/samsung/j5y17lte/proprietary/vendor/lib/libtinycompress.so:system/vendor/lib/libtinycompress.so \
-    vendor/samsung/j5y17lte/proprietary/lib/libtinyxml2.so:system/lib/libtinyxml2.so \
     vendor/samsung/j5y17lte/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
     vendor/samsung/j5y17lte/proprietary/etc/Tfa9890.cnt:system/vendor/etc/Tfa9890.cnt
 

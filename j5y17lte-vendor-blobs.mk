@@ -194,3 +194,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5y17lte/proprietary/_gps/vendor/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so \
     vendor/samsung/j5y17lte/proprietary/_gps/vendor/lib/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwrappergps.so \
     vendor/samsung/j5y17lte/proprietary/_gps/vendor/lib/vendor.samsung.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.gnss@1.0.so
+    
+    
+# wifi blobs
+PRODUCT_COPY_FILES += \
+    vendor/samsung/j5y17lte/proprietary/wifi/etc/wifi/bcmdhd_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin \
+    vendor/samsung/j5y17lte/proprietary/wifi/etc/wifi/bcmdhd_mfg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin \
+    vendor/samsung/j5y17lte/proprietary/wifi/etc/wifi/bcmdhd_sta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin \
+    vendor/samsung/j5y17lte/proprietary/wifi/etc/wifi/nvram_mfg.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt \
+    vendor/samsung/j5y17lte/proprietary/wifi/etc/wifi/nvram_net.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt

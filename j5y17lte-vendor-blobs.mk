@@ -38,6 +38,10 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5y17lte/proprietary/lib/libcodecdump.so:system/lib/libcodecdump.so \
     vendor/samsung/j5y17lte/proprietary/lib/libfloatingfeature.so:system/lib/libfloatingfeature.so \
     vendor/samsung/j5y17lte/proprietary/lib/libpreprocessing_nxp.so:system/lib/libpreprocessing_nxp.so \
+    vendor/samsung/j5y17lte/proprietary/lib/librecordalive.so:system/lib/librecordalive.so \
+    vendor/samsung/j5y17lte/proprietary/lib/libsamsungDiamondVoice.so:system/lib/libsamsungDiamondVoice.so \
+    vendor/samsung/j5y17lte/proprietary/lib/lib_SamsungRec_06003.so:system/lib/lib_SamsungRec_06003.so \
+    vendor/samsung/j5y17lte/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
     vendor/samsung/j5y17lte/proprietary/lib/libprotobuf-cpp-fooo.so:system/lib/libprotobuf-cpp-fooo.so \
     vendor/samsung/j5y17lte/proprietary/lib/libSamsungPostProcess.so:system/lib/libSamsungPostProcess.so \
     vendor/samsung/j5y17lte/proprietary/lib/libSamsungPostProcessConvertor.so:system/lib/libSamsungPostProcessConvertor.so \
@@ -55,6 +59,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5y17lte/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/samsung/j5y17lte/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/samsung/j5y17lte/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
+    vendor/samsung/j5y17lte/proprietary/lib/hw/audio.primary.universal7870.so:system/lib/hw/audio.primary.universal7870.so \
+    vendor/samsung/j5y17lte/proprietary/vendor/lib/hw/fingerprint.default.so:system/vendor/lib/hw/fingerprint.default.so \
     vendor/samsung/j5y17lte/proprietary/lib64/hw/gralloc.exynos5.so:system/lib64/hw/gralloc.exynos5.so \
     vendor/samsung/j5y17lte/proprietary/vendor/bin/wcnss_filter:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_filter \
     vendor/samsung/j5y17lte/proprietary/vendor/etc/plmn_delta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta.bin \
@@ -66,7 +72,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5y17lte/proprietary/vendor/firmware/setfile_sr259.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_sr259.bin \
     vendor/samsung/j5y17lte/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/samsung/j5y17lte/proprietary/vendor/lib/libLifevibes_lvverx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libLifevibes_lvverx.so \
-    vendor/samsung/j5y17lte/proprietary/vendor/lib/libLifevibes_lvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libLifevibes_lvvetx.so
+    vendor/samsung/j5y17lte/proprietary/vendor/lib/libLifevibes_lvvetx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libLifevibes_lvvetx.so \
+    vendor/samsung/j5y17lte/proprietary/vendor/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
+    vendor/samsung/j5y17lte/proprietary/vendor/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthtzcommon.so \
+    vendor/samsung/j5y17lte/proprietary/vendor/lib/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libegis_fp_normal_sensor_test.so \
+    vendor/samsung/j5y17lte/proprietary/vendor/lib/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynaFpSensorTestNwd.so \
+    vendor/samsung/j5y17lte/proprietary/vendor/lib/libvndsecril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvndsecril-client.so \
+    vendor/samsung/j5y17lte/proprietary/vendor/etc/Tfa9890.cnt:$(TARGET_COPY_OUT_VENDOR)/etc/Tfa9890.cnt \
+    vendor/samsung/j5y17lte/proprietary/vendor/lib/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynaFpSensorTestNwd.so \
+    vendor/samsung/j5y17lte/proprietary/vendor/lib/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynaFpSensorTestNwd.so \
+    vendor/samsung/j5y17lte/proprietary/vendor/lib/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynaFpSensorTestNwd.so \
 
 # omx stuff
 PRODUCT_COPY_FILES += \

@@ -20,21 +20,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5y17lte/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
     vendor/samsung/j5y17lte/proprietary/etc/bluetooth/iop_bt.db:system/etc/bluetooth/iop_bt.db \
     vendor/samsung/j5y17lte/proprietary/etc/bluetooth/iop_device_list.conf:system/etc/bluetooth/iop_device_list.conf \
-    vendor/samsung/j5y17lte/proprietary/etc/firmware/bdwlan30.bin:system/etc/firmware/bdwlan30.bin \
-    vendor/samsung/j5y17lte/proprietary/etc/firmware/bdwlan32.bin:system/etc/firmware/bdwlan32.bin \
-    vendor/samsung/j5y17lte/proprietary/etc/firmware/Data.msc:system/etc/firmware/Data.msc \
-    vendor/samsung/j5y17lte/proprietary/etc/firmware/nvm_tlv_tf_1.1.bin:system/etc/firmware/nvm_tlv_tf_1.1.bin \
-    vendor/samsung/j5y17lte/proprietary/etc/firmware/otp30.bin:system/etc/firmware/otp30.bin \
-    vendor/samsung/j5y17lte/proprietary/etc/firmware/qwlan30.bin:system/etc/firmware/qwlan30.bin \
-    vendor/samsung/j5y17lte/proprietary/etc/firmware/qwlan30_ibss.bin:system/etc/firmware/qwlan30_ibss.bin \
-    vendor/samsung/j5y17lte/proprietary/etc/firmware/rampatch_tlv_tf_1.1.tlv:system/etc/firmware/rampatch_tlv_tf_1.1.tlv \
-    vendor/samsung/j5y17lte/proprietary/etc/firmware/utf30.bin:system/etc/firmware/utf30.bin \
-    vendor/samsung/j5y17lte/proprietary/etc/firmware/utfbd30.bin:system/etc/firmware/utfbd30.bin \
-    vendor/samsung/j5y17lte/proprietary/etc/firmware/utfbd32.bin:system/etc/firmware/utfbd32.bin \
-    vendor/samsung/j5y17lte/proprietary/etc/firmware/wlan/grippower.info:system/etc/firmware/wlan/grippower.info \
-    vendor/samsung/j5y17lte/proprietary/etc/firmware/wlan/qcom_cfg.ini:system/etc/firmware/wlan/qcom_cfg.ini \
-    vendor/samsung/j5y17lte/proprietary/etc/firmware/wlan/WCNSS_cfg.dat:system/etc/firmware/wlan/WCNSS_cfg.dat \
+    vendor/samsung/j5y17lte/proprietary/etc/firmware/bcm43455_V0161.0285.hcd:system/etc/firmware/bcm43455_V0161.0285.hcd \
     vendor/samsung/j5y17lte/proprietary/etc/srm.bin:system/etc/srm.bin \
+    vendor/samsung/j5y17lte/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
+    vendor/samsung/j5y17lte/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
+    vendor/samsung/j5y17lte/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
+    vendor/samsung/j5y17lte/proprietary/etc/wifi/nvram.txt:system/etc/wifi/nvram.txt \
     vendor/samsung/j5y17lte/proprietary/lib/hw/audio.primary.universal7870.so:system/lib/hw/audio.primary.universal7870.so \
     vendor/samsung/j5y17lte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/samsung/j5y17lte/proprietary/lib/lib_DNSe_NRSS_ver226.so:system/lib/lib_DNSe_NRSS_ver226.so \
@@ -194,12 +185,3 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5y17lte/proprietary/_gps/vendor/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so \
     vendor/samsung/j5y17lte/proprietary/_gps/vendor/lib/libwrappergps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwrappergps.so \
     vendor/samsung/j5y17lte/proprietary/_gps/vendor/lib/vendor.samsung.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.gnss@1.0.so
-    
-    
-# wifi blobs
-PRODUCT_COPY_FILES += \
-    vendor/samsung/j5y17lte/proprietary/wifi/etc/wifi/bcmdhd_apsta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_apsta.bin \
-    vendor/samsung/j5y17lte/proprietary/wifi/etc/wifi/bcmdhd_mfg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_mfg.bin \
-    vendor/samsung/j5y17lte/proprietary/wifi/etc/wifi/bcmdhd_sta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bcmdhd_sta.bin \
-    vendor/samsung/j5y17lte/proprietary/wifi/etc/wifi/nvram_mfg.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_mfg.txt \
-    vendor/samsung/j5y17lte/proprietary/wifi/etc/wifi/nvram_net.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/nvram_net.txt

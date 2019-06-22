@@ -20,12 +20,22 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5y17lte/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
     vendor/samsung/j5y17lte/proprietary/etc/bluetooth/iop_bt.db:system/etc/bluetooth/iop_bt.db \
     vendor/samsung/j5y17lte/proprietary/etc/bluetooth/iop_device_list.conf:system/etc/bluetooth/iop_device_list.conf \
+	vendor/samsung/j5y17lte/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/samsung/j5y17lte/proprietary/vendor/firmware/bcm43455_V0161.0285.hcd:system/vendor/firmware/bcm43455_V0161.0285.hcd \
     vendor/samsung/j5y17lte/proprietary/etc/srm.bin:system/etc/srm.bin \
+    vendor/samsung/j5y17lte/proprietary/etc/wifi/.clminfo:system/etc/wifi/.clminfo \
     vendor/samsung/j5y17lte/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
+    vendor/samsung/j5y17lte/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
     vendor/samsung/j5y17lte/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
+	vendor/samsung/j5y17lte/proprietary/etc/wifi/bcmdhd_clm.blob:system/etc/wifi/bcmdhd_clm.blob \
+	vendor/samsung/j5y17lte/proprietary/etc/wifi/bcmdhd_apsta.bin_blob:system/etc/wifi/bcmdhd_apsta.bin_blob \
+	vendor/samsung/j5y17lte/proprietary/etc/wifi/bcmdhd_mfg.bin_blob:system/etc/wifi/bcmdhd_mfg.bin_blob \
+    vendor/samsung/j5y17lte/proprietary/etc/wifi/bcmdhd_sta.bin_blob:system/etc/wifi/bcmdhd_sta.bin_blob \
     vendor/samsung/j5y17lte/proprietary/etc/wifi/cred.conf:system/etc/wifi/cred.conf \
     vendor/samsung/j5y17lte/proprietary/etc/wifi/nvram.txt:system/etc/wifi/nvram.txt \
+    vendor/samsung/j5y17lte/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
+    vendor/samsung/j5y17lte/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
+    vendor/samsung/j5y17lte/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/samsung/j5y17lte/proprietary/lib/hw/audio.primary.universal7870.so:system/lib/hw/audio.primary.universal7870.so \
     vendor/samsung/j5y17lte/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     vendor/samsung/j5y17lte/proprietary/lib/lib_DNSe_NRSS_ver226.so:system/lib/lib_DNSe_NRSS_ver226.so \
@@ -62,7 +72,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5y17lte/proprietary/lib/hw/audio.primary.universal7870.so:system/lib/hw/audio.primary.universal7870.so \
     vendor/samsung/j5y17lte/proprietary/vendor/lib/hw/fingerprint.default.so:system/vendor/lib/hw/fingerprint.default.so \
     vendor/samsung/j5y17lte/proprietary/lib64/hw/gralloc.exynos5.so:system/lib64/hw/gralloc.exynos5.so \
-    vendor/samsung/j5y17lte/proprietary/vendor/bin/wcnss_filter:$(TARGET_COPY_OUT_VENDOR)/bin/wcnss_filter \
     vendor/samsung/j5y17lte/proprietary/vendor/etc/plmn_delta.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta.bin \
     vendor/samsung/j5y17lte/proprietary/vendor/etc/plmn_delta_hktw.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_delta_hktw.bin \
     vendor/samsung/j5y17lte/proprietary/vendor/etc/plmn_se13.bin:$(TARGET_COPY_OUT_VENDOR)/etc/plmn_se13.bin \

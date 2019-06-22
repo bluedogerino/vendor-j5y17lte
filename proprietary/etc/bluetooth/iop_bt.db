@@ -191,15 +191,6 @@ HOGPBlacklist KEY_BDADDR="00:1B:DC:*"
 BleCIBlackList KEY_BDADDR="D0:5F:B8:*" KEY_NAME="A&D*"
 
 #---------------------------------------------------------------------
-# :: Prevent sending gattc service changed indication
-#
-#    AVAILABLE KEYS :
-#
-#      KEY_NAME
-
-NoServiceChgInd KEY_NAME="GearVRController*"
-
-#---------------------------------------------------------------------
 # :: Prevent using default io key distribution for SMP for HOGP
 #
 #    AVAILABLE KEYS :
@@ -315,12 +306,14 @@ AvrcAbsVolBlacklist KEY_BDADDR="b8:07:bf:*"
 AvrcAbsVolBlacklist KEY_BDADDR="11:11:22:*"
 /* FOCUSPOWER-F10 - not enough granularity with volume */
 AvrcAbsVolBlacklist KEY_BDADDR="00:17:77:*"
-/* A33 - malfunction if register volume event */
-AvrcAbsVolBlacklist KEY_BDADDR="00:22:37:*"
 /* FENDA Swan - malfunction if register volume event */
 AvrcAbsVolBlacklist KEY_BDADDR="f0:13:c3:*"
 /* BTH-053 - malfunction if register volume event */
 AvrcAbsVolBlacklist KEY_BDADDR="00:1a:7d:*"
+/* HB01 - unacceptably loud volume */
+AvrcAbsVolBlacklist KEY_BDADDR="cc:c5:0a:*"
+/* EC502 - unacceptably loud volume */
+AvrcAbsVolBlacklist KEY_BDADDR="30:21:86:*"
 
 #---------------------------------------------------------------------
 # :: AVRC absolute volume fails for certain devices
@@ -335,6 +328,8 @@ AvcBlacklistWithBdName KEY_BDADDR="00:00:00:*" KEY_NAME="HBS_810K"
 AvcBlacklistWithBdName KEY_BDADDR="00:00:00:*" KEY_NAME="ER700"
 /* PISnet FreeGo - loud volume after reconnection*/
 AvcBlacklistWithBdName KEY_BDADDR="00:00:00:*" KEY_NAME="PISnet_FreeGo"
+/* EDIFIER S1000 - loud volume after reconnection*/
+AvcBlacklistWithBdName KEY_BDADDR="40:ef:4c:*" KEY_NAME="EDIFIER_S1000"
 
 #---------------------------------------------------------------------
 # :: AVRC absolute volume fails for certain devices
@@ -369,8 +364,24 @@ AvcBlacklistWithBdMfctLmp KEY_BDADDR="a4:77:58:*" KEY_LMP_MFCT="10" KEY_LMP_VER=
 AvcBlacklistWithBdMfctLmp KEY_BDADDR="d0:bd:01:*" KEY_LMP_MFCT="10" KEY_LMP_VER="6:8648"
 /* H13S - malfunction during avc */
 AvcBlacklistWithBdMfctLmp KEY_BDADDR="13:17:11:*" KEY_LMP_MFCT="10" KEY_LMP_VER="7:8648"
-/* 007 - malfunction during avc */
-AvcBlacklistWithBdMfctLmp KEY_BDADDR="13:e9:08:*" KEY_LMP_MFCT="10" KEY_LMP_VER="6:8648"
+AvcBlacklistWithBdMfctLmp KEY_BDADDR="e9:08:ef:*" KEY_LMP_MFCT="10" KEY_LMP_VER="6:8648"
+/* IC-BTS02 - malfunction during avc */
+AvcBlacklistWithBdMfctLmp KEY_BDADDR="c0:7a:b5:*" KEY_LMP_MFCT="10" KEY_LMP_VER="6:8648"
+/* 304241 - malfunction during avc */
+AvcBlacklistWithBdMfctLmp KEY_BDADDR="fc:58:fa:*" KEY_LMP_MFCT="10" KEY_LMP_VER="6:8648"
+/* JABRA WAVE - malfunction during avc */
+AvcBlacklistWithBdMfctLmp KEY_BDADDR="eb:06:ef:*" KEY_LMP_MFCT="10" KEY_LMP_VER="6:8648"
+/* Scosche boomBOTTLE H2O - malfunction during avc */
+AvcBlacklistWithBdMfctLmp KEY_BDADDR="00:00:03:*" KEY_LMP_MFCT="10" KEY_LMP_VER="6:8648"
+AvcBlacklistWithBdMfctLmp KEY_BDADDR="00:00:01:*" KEY_LMP_MFCT="10" KEY_LMP_VER="6:8648"
+/* N9008 - malfunction during avc */
+AvcBlacklistWithBdMfctLmp KEY_BDADDR="a0:5a:a5:*" KEY_LMP_MFCT="10" KEY_LMP_VER="6:8648"
+/* FV1 - malfunction during avc */
+AvcBlacklistWithBdMfctLmp KEY_BDADDR="00:12:6f:*" KEY_LMP_MFCT="10" KEY_LMP_VER="6:8648"
+/* IA70 - malfunction during avc */
+AvcBlacklistWithBdMfctLmp KEY_BDADDR="40:ef:4c:*" KEY_LMP_MFCT="10" KEY_LMP_VER="6:8648"
+/* A33 - malfunction during avc */
+AvcBlacklistWithBdMfctLmp KEY_BDADDR="00:22:37:*" KEY_LMP_MFCT="10" KEY_LMP_VER="5:7213"
 
 #---------------------------------------------------------------------
 # :: Initiate Av connect even when sdp fails
@@ -469,8 +480,6 @@ ProcessAvrcKey KEY_BDADDR="9c:8d:7c:*"
 ProcessAvrcKey KEY_BDADDR="30:c3:d9:*"
 /*  Porsche BT 2110 */
 ProcessAvrcKey KEY_BDADDR="b8:d7:af:*"
-/*  Chrysler BT VP2 C */
-ProcessAvrcKey KEY_BDADDR="00:54:af:*"
 
 #---------------------------------------------------------------------
 # :: to process PLAY/PAUSE command by checking DID.
@@ -854,6 +863,8 @@ DisableAacCodec KEY_BDADDR="00:14:0a:*"
 DisableAacCodecWithName KEY_NAME="Spigen_R12S"
 /* Maruti Suzuki */
 DisableAacCodecWithName KEY_NAME="Maruti_Suzuki"
+/* MAXCOM */
+DisableAacCodecWithName KEY_NAME="MAXCOM"
 
 #---------------------------------------------------------------------
 # :: Block HV1 SCO connection

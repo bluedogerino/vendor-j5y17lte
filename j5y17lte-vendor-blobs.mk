@@ -20,7 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/j5y17lte/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
     vendor/samsung/j5y17lte/proprietary/etc/bluetooth/iop_bt.db:system/etc/bluetooth/iop_bt.db \
     vendor/samsung/j5y17lte/proprietary/etc/bluetooth/iop_device_list.conf:system/etc/bluetooth/iop_device_list.conf \
-	vendor/samsung/j5y17lte/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/samsung/j5y17lte/proprietary/vendor/firmware/bcm43455_V0161.0285.hcd:system/vendor/firmware/bcm43455_V0161.0285.hcd \
     vendor/samsung/j5y17lte/proprietary/etc/srm.bin:system/etc/srm.bin \
     vendor/samsung/j5y17lte/proprietary/etc/wifi/.clminfo:system/etc/wifi/.clminfo \
